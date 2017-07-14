@@ -1677,6 +1677,7 @@
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		color: inherit;
 		text-decoration: none;
+		cursor: pointer;
 	}
 
 		a:hover {
@@ -3889,6 +3890,17 @@
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.headshot {
+		border-radius: 10%;
+		margin: 2em;
+		height: 100%;
+		width: auto;
+
 	}
 
 		#intro p {
